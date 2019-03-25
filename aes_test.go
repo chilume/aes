@@ -16,5 +16,6 @@ func TestEncrypt(t *testing.T) {
 	sec, err := Encrypt(key, []byte(testMessage))
 	assert.Equal(t, err, nil)
 	val, err := Decrypt(key, sec)
+	assert.Equal(t, err, nil)
 	assert.Equal(t, testMessage, string(val))
 }
