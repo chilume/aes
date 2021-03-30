@@ -2,8 +2,12 @@
 
 AES Library to encrypt and decryt secret message.
 
-Some useful references
+Rreferences
+
 https://www.atpinc.com/blog/what-is-aes-256-encryption
+
 https://en.wikipedia.org/wiki/Cryptographic_nonce
+
 https://golang.org/pkg/crypto/aes
+
 https://golang.org/pkg/crypto/cipher/
